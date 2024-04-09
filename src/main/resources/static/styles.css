@@ -1,0 +1,32 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: mediumvioletred;
+}
+
+ul {
+    list-style-type: none;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
