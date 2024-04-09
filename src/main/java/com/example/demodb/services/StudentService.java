@@ -13,4 +13,16 @@ public class StudentService {
     public void addStudent(Student s1){
        studentr.save(s1);
     }
+
+
+    public Student updateStudent(int id, String city) {
+        Student s1= studentr.findById(id).get();
+        s1.setCity(city);
+        return studentr.save(s1);
+    }
+
+    public String deleteStudent(int id) {
+        studentr.deleteById(id);
+        return ("student deleted");
+    }
 }
